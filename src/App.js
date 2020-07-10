@@ -5,6 +5,7 @@ import Contact from "./pages/contact";
 import Home from "./pages/home";
 import Projects from "./pages/projects";
 import Testimonial from "./pages/testimonial";
+import NotFoundPage from "./pages/notFoundPage";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav } from "reactstrap";
 
 import {
@@ -53,6 +54,12 @@ function App(props) {
           </Collapse>
         </Navbar>
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
           <Route path="/projects">
             <Projects />
           </Route>
@@ -62,11 +69,8 @@ function App(props) {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/">
-            <Home />
+          <Route path="*">
+            <NotFoundPage />
           </Route>
         </Switch>
       </div>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Mono&family=Manrope:wght@200&display=swap");
 
 body {
   font-family: "Roboto Mono", monospace;
@@ -70,4 +70,33 @@ a:hover {
 }
 .heart {
   color: #c0392b;
+}
+/* Page not Found */
+.error-body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Manrope", sans-serif;
+  color: #7f8c8d;
+  background: #f1c40f;
+  color: #fff;
+}
+.not-found {
+  font-size: 10rem;
+  font-weight: 700;
+}
+.send {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border-radius: 1px;
+  box-shadow: 2px 3px #dc3545;
+}
+
+.send:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border-radius: 1px;
+  box-shadow: 2px 3px #dc3545;
 }
