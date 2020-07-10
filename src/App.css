@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Mono&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  color: #7f8c8d;
+  overflow-x: hidden;
+}
+/* App stylesheet */
+
+.head-text {
+  font-family: "Major Mono Display", monospace;
+  color: #34495e;
+  font-weight: bolder;
+}
+.nav-link {
+  color: #34495e;
+  font-size: larger;
+}
+.nav-link:hover,
+.head-text:hover {
+  text-decoration: none;
+  color: #2980b9;
+}
+
+/* Homepage stylesheet */
+.col-md-4 {
+  background-color: #f2f2f2;
+}
+.logo-img {
+  height: 200px;
+  width: 200px;
+}
+.name-text {
+  color: #222f3e;
+  font-weight: bolder;
+}
+a:hover {
+  text-decoration: none;
+}
+.about-us {
+  padding: 30px;
+}
+.about-us p {
+  font-size: smaller;
+}
+.icon {
+  margin: 5px;
+  font-size: larger;
+}
+/* Project */
+.card {
+  max-width: 800px;
+}
+.project-background {
+  background-color: #868e96;
+}
+/* Testimonials */
+.slick-next:before,
+.slick-prev:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .slick-next:before,
+  .slick-prev:before {
+    display: none;
+  }
+}
+.heart {
+  color: #c0392b;
+}
