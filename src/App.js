@@ -7,7 +7,6 @@ import Projects from "./pages/projects";
 import Testimonial from "./pages/testimonial";
 import NotFoundPage from "./pages/notFoundPage";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav } from "reactstrap";
-
 import {
   BrowserRouter as Router,
   Switch,

@@ -2,6 +2,7 @@ import React from "react";
 import weather from "../Assets/weather.jpg";
 import form from "../Assets/form.jpg";
 import toodlsit from "../Assets/todolist.png";
+import quiz from "../Assets/quiz.jpg";
 import Layout from "../components/layout";
 
 const Projects = () => {
@@ -88,13 +89,42 @@ const Projects = () => {
                 <h5 className="card-title">Fully-Functionable Todo-List App</h5>
                 <p className="card-text">
                   A modern todo-list app built with React-Typescript which saves
-                  all our todos so we can even see them after page refresh
+                  all our todos so we can even see them after page refresh.
                 </p>
                 <a
-                  href="https://github.com/imvedanshmehra/React-Typescript-Todo-app"
+                  href="http://todolistbyvedansh.netlify.app/"
                   className="btn btn-primary stretched-link"
                 >
-                  View on Github
+                  View Live
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div className="border ">
+        <div className="card ">
+          <div className="row no-gutters">
+            <div className="col-sm-5 projct-background">
+              <img
+                src={quiz}
+                className="card-img-top responsive"
+                alt="weather-app"
+              />
+            </div>
+            <div className="col-sm-7">
+              <div className="card-body">
+                <h5 className="card-title">Brain Buster</h5>
+                <p className="card-text">
+                  A quiz app built with React TypeScript and TRIVIA Api for Q&A.
+                </p>
+                <a
+                  href="http://brainbuster.netlify.app/"
+                  className="btn btn-primary stretched-link"
+                >
+                  View Live
                 </a>
               </div>
             </div>

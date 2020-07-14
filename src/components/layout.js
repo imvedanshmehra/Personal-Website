@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 const Layout = (props) => {
   return (
     <div className="row">
-      <div className="col-md-4 col-md-pull-6 bg-light">
+      <div className="col-md-4  bg-light">
         <div className="text-center">
           <img
             src={logo}
@@ -30,7 +30,8 @@ const Layout = (props) => {
           <br />
           <hr />
         </div>
-        <div className="text-justify about-us">
+
+        <div className="text-justify about-us m-2">
           <h5 className="name-text">About Me</h5>
           <p>
             Hi, I'm Vedansh 🙂 I like building things. I have been working as
@@ -67,7 +68,7 @@ const Layout = (props) => {
           </p>
         </div>
       </div>
-      <div className="col-md-8 col-md-push-6 bg-light container ">
+      <div className="col-md-8 bg-light container ">
         <div className="jumbotron shadow-sm bg-white mt-md-5 mr-md-5 ">
           {props.children}
         </div>
