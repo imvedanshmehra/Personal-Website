@@ -36,9 +36,9 @@ const Layout = (props) => {
           <p>
             Hi, I'm Vedansh 🙂 I like building things. I have been working as
             freelance instructor since last 2years and provided support to more
-            than <b>100 students</b> across the globe. At the same time I also
-            work as a front-end developer an help clients by providing value to
-            their businesses.
+            than <b>100 students</b> across the globe. At the same time I have
+            also worked as a front-end developer and helped clients by providing
+            value to their businesses.
           </p>
 
           <NavLink to="/about">
